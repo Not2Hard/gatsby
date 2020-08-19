@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from './node_modules/gatsby-image'
+import { Link } from 'gatsby-image'
 
 import { StyleImg, WbnSlide, SliderWrapper } from './styles/HeroSliderStyles'
 

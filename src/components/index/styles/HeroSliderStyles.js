@@ -1,5 +1,5 @@
-import styled from './node_modules/styled-components';
-import Img from './node_modules/gatsby-image';
+import styled from 'styled-components';
+import Img from 'gatsby-image';
 
 export const StyledImg = styled(Img)`
   height: 800px;
