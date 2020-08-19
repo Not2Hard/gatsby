@@ -18,8 +18,13 @@ const HeroSlider = () => {
           id
           featured_media {
             localFile {
-              id
-              relativePath
+              childImageSharp {
+                fluid(quality: 100, maxWidth: 4000) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+              }
+              
+
             }
           }
           acf {
